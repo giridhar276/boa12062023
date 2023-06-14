@@ -1,0 +1,271 @@
+** Everything in python is object **
+*** Every object contains set of methods ***
+
+
+number
+--------
+number can be integer or decimal or octal or hexa.
+
+aval = 10
+bval = 34.32
+
+
+string
+--------
+string is defined in single or double or triple quotes.
+
+aname = 'python programming'
+bname = "java programming"
+cname = """hadoop"""
+
+
+list ( like an array)
+-----
+list contains set of elements.
+Elements can be numbers or strings or any combination.
+list elements are defined in []
+
+alist = [10,20,30,40]
+blist = ["unix",43,2,"java"]
+
+
+
+tuple ( immutable , unchangeable , uneditable)
+-----
+tuple contains set of elements.
+Elements can be numbers or strings or any combination.
+tuple elements are defined in ().
+*** Elements inside tuple cannot be modified directly ***
+
+
+atup = (34,23,3.34,"java")
+
+# list of lists
+empdata = [['ram','1-1-1990','M'],['rita','2-2-1990,'F],[]]
+# list of tuples
+empdata = [('ram','1-1-1990','M'),('rita','2-2-1990,'F),()]
+
+
+
+
+dictionary ( hashmap hash json )
+------------------------------
+dictionary contains elements in the form of keys and values.
+In dictionary .. key can be number or string used to uniquely identify the value.
+               value can be number or string or list or tupe or dictionary or set or complex data structure
+
+syntax:   object = { key:value , key:value , key:value ....}
+exampe:     book =    {'chap1':10 , 'chap2':20 ,'chap3':30}
+           bookinfo = {'chap1':[10,'Rita','UK'] , 'chap2':[20,'Ram','US'] }
+
+
+
+set
+------
+set is unordered collection of unique values of the same type.
+
+aset = {10,10,20,30,30,30}
+
+
+file handling in python
+-----------------------------
+
+There are 2 types of files
+- flat files ( .csv   txt conf log  tsv )
+- third party files ( xlsx docx pdf ppt xml zip rar tar gz tar.gz )
+
+opening the file
+---------------------
+syntax:   object = open(filename,mode)
+example:    fobj = open('abc.txt','r')  # read mode
+            fobj = open('abc.txt','w')  # write mode
+            fobj = open('abc.txt','a')  # append mode
+
+
+
+close the file
+----------------
+fobj.close()
+
+read operation
+-------------
+- reading the file line by line using file object
+- obj.readlines()
+- obj.read()
+- read the file using csv library
+- using pandas library
+- json library
+- openpyxl library
+
+
+
+
+exception handling
+------------------
+
+There are 2 types of errors
+
+- syntax error
+- semantic error
+
+handling the errors during the runtime is known as exception handling.
+
+
+try
+except
+else
+finally
+raise
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+library | module | package
+-------------------------------------------
+Every library contains some set of methods of some particular task.
+
+There are 2 types of libraries
+
+- builtin libraries( builtin libraries which are generally used are installed with python)
+- third party libraries( depending on the requirement developer has to install the third party library )
+
+How to install the third party library ?
+----------------
+
+-installing using pip tool ( pip tool downloads and installs the library )
+- downloading and installing library manually from www.pypi.org
+
+
+
+programming
+----------------
+-procedural programming ( top down programming)
+-object oriented programming
+
+
+
+object oriented programming principles
+------------------------------------
+-class and object
+- data hiding
+- escapsulation
+- inheritance
+- polymorphism
+
+
+class
+------
+class is just like blueprint of the house.
+Every class contains data members(variables) and member functions.(methods)
+
+object
+------
+object is the instance of the class
+
+
+self
+-----
+self is the instance of the object
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
